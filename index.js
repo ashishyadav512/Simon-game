@@ -14,7 +14,7 @@ let h2 = document.querySelector("h2"); //for updating value of h2
 document.addEventListener("keypress",function(){
     if(started == false){
         console.log("game started");
-        started = true;//mean game start hogya or ek hi  baar start hoga okk
+        started = true;//
         levelup(); //for calling after starting
     }
 
@@ -70,7 +70,7 @@ function checkans(idx){
 
 function btnpress(){
     // console.log("btn was pressed");
-//    console.log(this)//ye bataega kon sa click hua hai button like blue,pink..etc
+//    console.log(this)/
    let btn = this;
 //    btnflash(btn);
 userflash(btn);
@@ -91,6 +91,3 @@ function reset(){
     level = 0;
 }
 
-
-//shi se dekho toh bht{ btn } but ye sb alag2 hai bzc of its scope ok imp..
-// matching sequence ki video 12 min wali ok imp 
